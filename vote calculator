@@ -1,0 +1,50 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+
+	int flag=1;
+	string name;
+	int choice;
+	
+	do
+	{
+	
+	cout<<"please enter your name";
+	cin>>name;
+	cout<<"please select your party\n  press 1 for pti \n press 2 for ppp\npress 3 for pmln\nothers";
+	cin>>choice;
+	int pti,ppp,pmln,others;
+	if(choice==1)
+	{
+		pti++;
+	}
+	else if(choice==2)
+	{
+		ppp++;
+	}
+	else if (choice==3)
+	{
+		pmln++;
+	}
+	else if(choice==4)
+	{
+		others++;
+	}
+	else if(choice!=1,2,3)
+	{
+		cout<<"invalid choice try again"<<endl;
+	}
+	if(choice=1,2,3)
+	{
+		cout<<"vote casted thanks for your affot"<<endl;
+	}
+	
+   cout<<"press 1 for continue\npress another key for exit"<<endl;
+   cout<<"pti got"<<pti<<"\nppp got"<<ppp<<"\npmln got"<<pmln;
+}
+while(flag=1);
+
+}
+	
+	
